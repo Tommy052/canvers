@@ -3,9 +3,17 @@ html, body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-canvas {
-  border: 2px solid red;
-  box-sizing: border-box;
+#night-city-img {
+  position: fixed;
+  bottom: 0;
+  object-position: bottom;
+  object-fit: cover;
+  width: 100%;
+  height: 30%;
+  filter: brightness(1.5)
 }
