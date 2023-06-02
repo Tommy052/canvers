@@ -14,3 +14,6 @@ countdown
 2.파티클 배치하기
 3.파티클 애니메이션 만들기
 4.마무리 꾸미기 작업
+
+threejs-basic
+three.js 기초
